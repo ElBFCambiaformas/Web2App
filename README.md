@@ -13,16 +13,17 @@ My Web App is a desktop application built with Electron that:
 REQUIREMENTS
 ------------
 - Node.js (LTS recommended) – https://nodejs.org
-- npm (comes with Node.js)
 
 INSTALLATION & SETUP
 -------------------
 1. Install dependencies:
     cd MyWebApp
     npm install
-2. Ensure icon.ico is present in the project folder.
-3. Run the app in development mode:
+2. Ensure icon.ico is present in the project folder. If not, run the icomaker python script.
+3. Run the Command Prompt in Administrator mode and set the directory to the template (cd C:\Users\user\Downloads\MyWebApp) and run this command:
     npm start
+    
+    It will: 
    - Opens the app window with the website.
    - Downloads triggered by the site go to the system Downloads folder.
    - Shows GUI download progress bar with cancel button.
