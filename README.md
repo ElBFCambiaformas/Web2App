@@ -28,6 +28,9 @@ INSTALLATION & SETUP
    - Downloads triggered by the site go to the system Downloads folder.
    - Shows GUI download progress bar with cancel button.
 
+   To build it
+   npm run build
+
 FEATURES
 --------
 - Website window: Loads any URL (add your own in main.js)
